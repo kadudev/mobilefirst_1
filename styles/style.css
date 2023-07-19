@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    border: none;
+    outline: none;
+    font-family: 'Jost', sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.content-pr h2 {
+    text-align: center;
+    color: white;
+    font-size: 23px;
+}
+
+.cabecalho {
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+}
+
+.logo {
+    margin-top: 8px;
+    margin-left: 10px;
+    width: 73px;
+    height: 73px;
+    float: left;
+    background: url(../imgs/logoMobile.svg) center center/73px no-repeat;
+    font-size: 0;
+}
+
+.btn-menu {
+    margin-top: 21px;
+    margin-right: 19px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    float: right;
+    color: #FFDF6F;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.btn-menu:hover{
+    color: #ffcf22;
+
+}
+
+.menu {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.9);
+    top: 0;
+    left: 0;
+}
+
+.btn-close {
+    font-size: 3em;
+    color: #fff;
+    float: right;
+    cursor: pointer;
+    margin-right: 5%;
+}
+
+.menu ul {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.menu li {
+    padding: 1.5%;
+}
+
+.menu li a {
+    font-size: 1em;
+    color: #FFDF6F;
+    padding: 1.5% 3%;
+}
+
+.menu li a:hover {
+    border: 1px solid #fff;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.content-pr{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../imgs/backgroundmobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content-pr-txt-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.content-pr-txt-btn h2{
+    margin-bottom: 20px;
+}
+
+.content-pr-txt-btn button{
+    margin-top: 10px;
+}
+
+.btn{
+    border: none;
+    background-color: #FFDF6F;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 10px;
+    width: 135px;
+    height: 29px;
+}
+
+.btn:hover{
+    background-color: #ffcf22;
+}
+
+.planos{
+    height: 170vh;
+    background: linear-gradient(to bottom, black, white);
+    background-size: cover;
+}
+
+#conheca {
+    padding-top: 4%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+#txt-seja{
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.paineis{
+    padding-top: 50px;
+    
+}
+
+.painel{
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 231px;
+    height: 302px;
+    border: solid 8px #ffedae;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.painel-tipo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    margin-top: 20px;
+    background-color: #ffedae;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.assinar-plano{
+    border: none;
+    background-color: #ffedae;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 31px;
+    width: 163px;
+    height: 31px;
+    margin-top: 8%;
+}
+
+.painel-tipo-sup{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    margin-top: 20px;
+    border: solid 1px #ffedae;
+    background-color: #ffedae;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.painel-melhor{
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 231px;
+    height: 302px;
+    border: solid 8px #ffedae;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.retang-melhor{
+    width: 220.34px;
+    height: 41.25px;
+    background-color: #ffedae;
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.valor-plano{
+    font-size: 20px;
+    color: white;
+}
+
+.txt-infos{
+    font-size: 18px;
+    color: white;
+}
+
+.container{
+    text-align: center;
+}
+
+.txt-suporte{
+    font-size: 18px;
+    color: black;
+    text-align: center;
+}
+
+.suporte a{
+    color: #E8993E;
+}
+
+.suporte{
+    margin-bottom: 10%;
+}
+
+footer{
+    background: linear-gradient(to bottom, white, #FFDF6F);
+    height: 20vh;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 6%;
+}
+
+.seta {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid black;
+  }
+
+footer p{
+    font-size: 17px;
+}
+
+.selecao-idioma{
+    padding-left: 1%;
+    padding-right: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 135px;
+    height: 27px;
+    border: solid 2px black;
+}
+
+.texto-cseja{
+text-align: center;    
+}
+
+.body-login{
+    background-color: black;
+}
+
+#quadrado-login{
+    margin-left: auto;
+    margin-right: auto;
+    width: 231px;
+    height: 302px;
+    border: solid 4px goldenrod;
+    border-radius: 20px;
+}

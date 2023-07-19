@@ -1,0 +1,233 @@
+/* smartphones*/
+
+@media screen and (min-width: 320px) {
+    .logo {
+        width: 50px;
+        background: url(../imgs/logoMobile.svg) center center/50px no-repeat;
+    }
+
+    .header {
+        height: 90px;
+    }
+
+    .suporte{
+        margin-top: 30%;
+    }
+
+    .painel-melhor p{
+        color: black;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 479px) {
+
+    .suporte{
+        margin-top: 0;
+    }
+    
+}
+
+@media screen and (min-width: 480px) {
+    .logo {
+        width: 80px;
+        background: url(../imgs/logoMobile.svg) center center/80px no-repeat;
+    }
+
+}
+
+/*tablets*/
+@media screen and (min-width:768px) {
+    p{
+        font-size: 20px;
+    }
+    .content-pr{
+        background-image: url("../imgs/background.png");
+       
+    }
+
+    .content-pr-txt-btn{
+        float: left;
+        clear: right;
+    }
+
+    .content-pr h2 {
+        font-size: 32px;
+    }
+
+    .menu {
+        width: auto;
+        float: right;
+        clear: right;
+        position: static;
+        display: block !important;
+        font-size: 1.5em;
+        background-color: transparent;
+        margin-top: 10px;
+        margin-right: 10px;
+
+    }
+
+    .cabecalho {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 20px;
+        margin-bottom: 3%;
+    }
+
+    .menu li {
+        padding: 5px;
+        float: left;
+        list-style: none;
+    }
+
+    .menu li a {
+        color: white;
+        font-size: 1em;
+        padding: 15px;
+    }
+
+    .btn-close{
+        display: none;
+    }
+
+    .btn-menu{
+        display: none;
+    }
+
+    .paineis{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #txtsup2{
+        font-size: 10px;
+    }
+
+    #conheca {
+        text-align: center;
+        color: white;
+        font-size: 28px;
+    }
+    
+    #txt-seja{
+        margin-left: 25px;
+        margin-right: 25px;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+    }
+
+    .planos{
+        height: 40vh;
+    }
+
+    .painel p{
+        color: black;
+    }
+
+    footer {
+        margin-bottom: 2%;
+    }
+
+}
+
+/*tablets e desktops*/
+@media screen and (min-width:960px) {
+    .logo {
+        width: 180px;
+        background: url(../imgs/logo.svg) center center/180px no-repeat;
+    }
+
+    .container img {
+        max-width: 640px;
+        max-height: 360px;
+        height: auto;
+        width: auto;
+
+    }
+
+    .texto {
+        font-size: 20px;
+    }
+
+    #title {
+        font-size: 30px;
+    }
+    .header{
+        padding: 1.5%;
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+    .btn-menu {
+        display: none;
+    }
+
+    .btn-close {
+        display: none;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 20px;
+        margin-bottom: 3%;
+    }
+
+    .menu {
+        width: auto;
+        height: 56px;
+        line-height: 56px;
+        float: right;
+        display: block !important;
+        position: static;
+        font-size: 1.5em;
+
+    }
+
+    .menu li {
+        padding: 5px;
+        float: left;
+        list-style: none;
+    }
+
+    .menu li a {
+        color: white;
+        font-size: 1em;
+        padding: 15px;
+    }
+
+    .menu li a:hover {
+        border: 1px solid #fff;
+    }
+
+    .rodape{
+        position: fixed;
+        padding-top: 0.5%;
+    }
+
+    .header{
+        padding: 0.8%;
+    }
+
+    .img-texto {
+        padding: 1.5%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .img-menu img {
+        max-width: 440px;
+        height: auto;
+        width: auto;
+
+    }
+
+}
